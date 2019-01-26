@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#89529E">
+
+    <title>UF WiCSE</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- favicon -->
+    <link rel=icon href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-105602574-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark animated">
+      <a class="navbar-brand" href="./">
+        <img alt="WiCSE Logo" src="img/logo-purple-svg.svg" width="150">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="solidify-toggler" onclick="solidify()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="e-board">E-Board</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resources">Resources</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="video-container">
+      <video poster="img/wicse-vid-still.jpg" autoplay muted loop>
+        <source src="img/wicse-vid.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="purple-banner" id="intro">
+      <div align="center" class="true-center">
+        <span class="section-title wow animated slideInUp">UF Women in Computer Science and Engineering</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row row-margin">
+        <div class="col-md-3" align="center">
+          <i class="fas fa-question fa-5x icon-purple wow animated fadeInLeft"></i>
+          <h3>About</h3>
+          <p>WiCSE is the official student ACM-W chapter at the University of Florida. We're dedicated to increasing the representation of women in Computer Science.</p>
+        </div>
+        <div class="col-md-3" align="center">
+          <i class="fas fa-briefcase fa-5x icon-purple wow animated fadeInLeft"></i>
+          <h3>Mission</h3>
+          <p>To facilitate the growth and empowerment of women in Computer Science by educating and celebrating their participation in the field.</p>
+        </div>
+        <div class="col-md-3" align="center">
+          <i class="fas fa-calendar-alt fa-5x icon-purple wow animated fadeInLeft"></i>
+          <h3>Events</h3>
+          <p>From professional development workshops to social and outreach events, we offer members an array of opportunities to help them find their niche and prosper.</p>
+        </div>
+        <div class="col-md-3" align="center">
+          <i class="fas fa-users fa-5x icon-purple wow animated fadeInLeft"></i>
+          <h3>Inclusion</h3>
+          <p>WiCSE thrives on diversity. We welcome any and all UF students to join. You don't have to be a woman or an engineer to participate and benefit!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="purple-banner">
+      <div align="center" class="true-center">
+        <span class="section-title wow animated slideInUp">Meet our sponsors</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="sponsors">
+        <div class="row true-center">
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/harris.png" alt="Harris Logo" width="80%">
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/infiniteenergy.png" alt="Infinite Energy Logo" width="90%">
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/jpmorganchase.png" alt="JP Morgan Chase and Co Logo" width="100%">
+            </div>
+          </div>
+        </div>
+        <div class="row true-center">
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/intel.png" alt="Intel Logo" width="50%">
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/ge.png" alt="General Electric Logo" width="40%">
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/citi.png" alt="Citi Logo" width="50%">
+            </div>
+          </div>
+        </div>
+        <div class="row true-center">
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <a href="https://gatorrentals.com/apartments-near-uf"><img src="img/sponsors/gatorrentals.png" alt="GatorRentals Logo" width="90%"></a>
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/infotech.png" alt="Info Tech Logo" width="90%">
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+            <div class="true-center sponsor-margin">
+              <img src="img/sponsors/ibm.png" alt="IBM Logo" width="60%">
+            </div>
+          </div>
+          <div class="col-md-4" align="center">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="purple-banner">
+      <div align="center" class="true-center">
+        <span class="section-title wow animated slideInUp">Stay connected with us</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row row-margin">
+        <div class="col-3" align="center">
+          <a href="https://www.facebook.com/groups/277502355733327/"><i class="fab fa-facebook fa-5x icon-purple wow animated fadeInLeft"></i></a>
+        </div>
+        <div class="col-3" align="center">
+          <a href="https://www.instagram.com/uf.wicse/"><i class="fab fa-instagram fa-5x icon-purple wow animated fadeInLeft"></i></a>
+        </div>
+        <div class="col-3" align="center">
+          <a href="https://twitter.com/UFWiCSE"><i class="fab fa-twitter fa-5x icon-purple wow animated fadeInLeft"></i></a>
+        </div>
+        <div class="col-3" align="center">
+          <a href="https://www.pinterest.com/ufwicse/"><i class="fab fa-pinterest-p fa-5x icon-purple wow animated fadeInLeft"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 footer-section">
+            <span class="text-muted">Copyright © 2018 UF WiCSE. All rights reserved.</span><br><br>
+            <span class="text-muted">Website designed by Jonathan Osorio</span><br>
+            <span class="text-muted"><a href="mailto:uf.wicse.webmaster@gmail.com">Contact Webmaster</a></span><br><br>
+            <span class="text-muted">UF WiCSE Logo designed by Jonathan Osorio</span>
+          </div>
+          <div class="col-sm-3 footer-section">
+            <ul class="footer-list">
+              <li class="footer-list-item"><a href="https://www.facebook.com/groups/277502355733327/">Facebook</a></li>
+              <li class="footer-list-item"><a href="https://www.instagram.com/uf.wicse/">Instagram</a></li>
+              <li class="footer-list-item"><a href="https://twitter.com/UFWiCSE">Twitter</a></li>
+              <li class="footer-list-item"><a href="https://www.pinterest.com/ufwicse/">Pinterest</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 footer-section">
+            <ul class="footer-list">
+              <li class="footer-list-item"><a href="events">Events</a></li>
+              <li class="footer-list-item"><a href="gallery">Gallery</a></li>
+              <li class="footer-list-item"><a href="e-board">E-Board</a></li>
+              <li class="footer-list-item"><a href="resources">Resources</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12" style="text-align: center">
+            <a class="text-muted" href="#video-container">Back to Top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- WOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <!-- custom js -->
+    <script src="js/scroll.js"></script>
+    <script src="js/animated-navbar.js"></script>
+  </body>
+</html>
